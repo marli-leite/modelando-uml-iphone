@@ -2,7 +2,7 @@ package loja;
 
 import dispositivo.Iphone;
 
-public class Main {
+public class Apple {
       public static void main(String[] args){
             Iphone apple = new Iphone();
 
