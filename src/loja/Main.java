@@ -1,11 +1,10 @@
 package loja;
+
 import dispositivo.Iphone;
 
 public class Main {
-      public static void main(String[] args) {
+      public static void main(String[] args){
             Iphone apple = new Iphone();
-            Iphone streaming = new Iphone();
-            Iphone explorer = new Iphone();
 
             System.out.println("Telefone");
             apple.ligar();
@@ -13,14 +12,14 @@ public class Main {
             apple.iniciarCorreioVoz();
 
             System.out.println("Spotify");
-            streaming.tocar();
-            streaming.pausar();
-            streaming.selecionarMusica();
+            apple.tocar();
+            apple.pausar();
+            apple.selecionarMusica();
 
             System.out.println("Explorer");
-            explorer.exibirPagina();
-            explorer.adicionarNovaAba();
-            explorer.atualizarPagina();
-      
+            apple.exibirPagina();
+            apple.adicionarNovaAba();
+            apple.atualizarPagina();
+
       }
 }
